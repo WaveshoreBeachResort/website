@@ -1,0 +1,61 @@
+@media(max-width:1024px){}
+
+
+@media(min-width:768px){
+
+    .header-wrapper header .mobile_nav {
+        display: none;
+    }
+    .navbar-expand-md {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-md .navbar-nav {
+        flex-direction: row;
+    }
+}
+
+@media(max-width:767px){
+    .howitworks_wrap .content_wrap,
+    .footer_section{
+        display: block;
+    }
+    .headline_wrapper h3 {
+    font-size: 1.8rem;
+    }
+    p{
+        font-size: 14px;
+    }
+    .banner_content_wrapper{
+        padding: 6rem 20px;
+    }
+    .heading_wrap h1{
+        font-size: 2.5rem;
+    }
+    .works-card-wraper{
+        margin-bottom: 30px;
+    }
+    .link_wrapper{
+        background: #000000e8;
+        width: 60%;
+        flex: none;
+        position: fixed;
+        right: 0;
+        height: 100vh;
+        top: 0;
+        padding: 20px;
+        z-index: 99;
+    }
+    .close_nav{
+        display: block;
+        position: fixed;
+        z-index: 999;
+                color: #fff;
+        right: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .header-wrapper header .navbar .nav_wrap .navbar-collapse .navbar-nav {
+        gap: 0.8rem;
+    }
+}
